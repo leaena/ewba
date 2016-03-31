@@ -2,8 +2,10 @@
   max-width: 100%;
 }
 body {
+  background-color: #eee;
+  color: #222;
   font-size: 22px;
-  font-family: 'Open Sans', 'Droid Sans', 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', Verdana, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 ol {
   padding-left: 1.5rem;
@@ -13,10 +15,10 @@ ul {
 }
 a {
   text-decoration: none;
-  color: #000;
+  color: #ec576b;
 }
 a:hover {
-  color: #6495ed;
+  color: #222;
 }
 .highlight {
   background: #2d2d2d;
@@ -34,7 +36,7 @@ a:hover {
 }
 .highlight .line {
   height: 1.5rem;
-  font-family: 'Source Code Pro', 'DejaVu Sans Mono', 'Droid Sans Mono', Menlo, Consolas, Monaco, 'Lucida Console', 'Courier', monoscape;
+  font-family: 'Inconsolata', monoscape;
 }
 .highlight pre {
   border: none;
@@ -165,7 +167,7 @@ pre .javascript .function {
 }
 #banner {
   overflow: auto;
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: 'Oswald', sans-serif;
 }
 #banner #site-title,
 #banner #site-subtitle {
@@ -176,17 +178,26 @@ pre .javascript .function {
   font-size: 2.5em;
   font-weight: 700;
   margin-right: 1.5em;
+  margin-left: 15px;
 }
 #banner #site-subtitle {
   padding-left: 1em;
-/*border-left thin solid dimgray*/
   font-size: small;
 }
-#content {
-  text-autospace: ideograph-alpha;
+#banner a {
+  color: #222;
+  box-shadow: 15px 0 0 #e5e338, -15px 0 0 #e5e338;
+  padding: 0;
+  margin: 0;
+  background-color: #e5e338;
+}
+#banner a:hover {
+  color: #222;
+  box-shadow: 5px 0 0 #eee, -5px 0 0 #eee;
+  background-color: #eee;
 }
 #content .meta .article-title {
-  font-family: 'Open Sans', 'Droid Sans', 'Source Sans Pro', 'Helvetica Neue', 'Segoe UI', Verdana, Tahoma, Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   margin-bottom: 0;
@@ -203,7 +214,7 @@ pre .javascript .function {
 #content .excerpt,
 #content .archive-list {
   padding: 0;
-  color: #696969;
+  color: #a9a9a9;
 }
 #content .abstract-list .article-date,
 #content .archive-list .article-date {
@@ -215,7 +226,7 @@ pre .javascript .function {
   display: none;
 }
 #content .article-content {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 1.5;
   padding-top: 0.5rem;
 }
@@ -230,10 +241,10 @@ pre .javascript .function {
 #content .article-content a {
   padding-left: 0.3rem;
   padding-right: 0.3rem;
-  color: #495a80;
+  color: #ec576b;
 }
 #content .article-content a:hover {
-  color: #6495ed;
+  color: #222;
 }
 #content .article-content a img {
   margin-left: -0.3rem;
@@ -242,34 +253,11 @@ pre .javascript .function {
   font-weight: normal;
 }
 #content .article-content blockquote {
-  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  margin: 0.5rem 2rem;
-  padding-left: 2rem;
-  color: #696969;
-  position: relative;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e5e338;
+  padding: 1rem;
+  margin: 0.5rem;
   display: block;
-}
-#content .article-content blockquote footer {
-  font-style: italic;
-  color: #a9a9a9;
-  font-size: 0.8em;
-  margin-top: 0.5rem;
-  display: block;
-}
-#content .article-content blockquote footer cite {
-  margin-left: 0.5em;
-}
-#content .article-content blockquote footer:before {
-  content: '-';
-}
-#content .article-content blockquote:before {
-  display: block;
-  content: open-quote;
-  font-size: 5em;
-  position: absolute;
-  left: -1rem;
-  top: -1rem;
-  color: #7a7a7a;
 }
 #content .article-content ol {
   padding-left: 1.5rem;
@@ -285,14 +273,23 @@ pre .javascript .function {
 #content nav {
   clear: both;
   font-weight: lighter;
-  text-align: center;
+  text-align: left;
+}
+#content nav a {
+  color: #eee;
+  padding: 5px 0;
+  background-color: #4ec5c1;
+  box-shadow: 5px 0 0 #4ec5c1, -5px 0 0 #4ec5c1;
+}
+#content nav a:hover {
+  color: #222;
+  background-color: transparent;
+  box-shadow: 5px 0 0 #eee, -5px 0 0 #eee;
 }
 #content nav #left-navigator {
-  max-width: 40%;
   float: left;
 }
 #content nav #right-navigator {
-  max-width: 40%;
   float: right;
 }
 #footer {
