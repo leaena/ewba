@@ -166,6 +166,7 @@ pre .javascript .function {
   min-width: 18rem;
 }
 #banner {
+  overflow: auto;
   font-family: 'Oswald', sans-serif;
 }
 #banner #site-title,
@@ -253,7 +254,8 @@ pre .javascript .function {
 }
 #content .article-content blockquote {
   font-family: 'Open Sans', sans-serif;
-  background-color: #e5e338;
+  background-color: #ec576b;
+  color: #eee;
   padding: 1rem;
   margin: 0.5rem;
   display: block;

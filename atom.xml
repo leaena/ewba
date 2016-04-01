@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://everythingwillbeamazing.com/"/>
-  <updated>2016-04-01T02:24:50.200Z</updated>
+  <updated>2016-04-01T02:39:54.218Z</updated>
   <id>http://everythingwillbeamazing.com/</id>
   
   <author>
@@ -65,13 +65,13 @@
     <link href="http://everythingwillbeamazing.com/2016/03/28/what-am-i-doing/"/>
     <id>http://everythingwillbeamazing.com/2016/03/28/what-am-i-doing/</id>
     <published>2016-03-29T06:27:20.000Z</published>
-    <updated>2016-03-31T04:15:35.000Z</updated>
+    <updated>2016-04-01T02:32:03.000Z</updated>
     <content type="html"><![CDATA[<p>I’m really not sure what I’m trying to do here. I’ll style it sooner or later, but I need to start writing online again and I need it to be just my own. Leaena.com needed to become my engineering persona. I want this to be more freeform. I want to post cat pictures and writing snippets and knitting and and and…</p>
-<h5 id="So_goal_time:">So goal time:</h5>
+<p>So goal time:</p>
 <blockquote>
 <p>I will write every day. At least 100 words. I can say as much or as little as I want.</p>
 </blockquote>
-<p>Maybe I’ll ist the songs I’ve listened to or talk about the weirdest link I clicked on today.</p>
+<p>Maybe I’ll list the songs I’ve listened to or talk about the weirdest link I clicked on today.</p>
 <p>My fun fact today is that I learned what the hell a <a href="https://developers.google.com/protocol-buffers/" target="_blank" rel="external">Proto Buffer</a> actually is. I haven’t backend engineered in a long time. And here I said this didn’t need to be about engineering…</p>
 <p>I think tomorrow I will probably talk about/test out a bunch of different markdown editors. This is <a href="http://dillinger.io/" target="_blank" rel="external">Dillinger</a> and it’s decent but I’m not sure if I want a web based solution or not. I guess it would be pretty hip of me.</p>
 ]]></content>
